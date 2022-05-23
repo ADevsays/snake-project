@@ -37,7 +37,7 @@ const dibujarText = ()=>{
     ctx.fillText(`Max Score ${+ maxScore}`,canvas.width-350,50);
 }
 const dibujarSnake=(x,y)=>{
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "red";
     for(let i = 0; i < cuerpo.length; i++){
         ctx.fillRect(cuerpo[i].x, cuerpo[i].y, 50, 50);
     }
