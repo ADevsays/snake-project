@@ -47,7 +47,7 @@ const dibujarSnake=(x,y)=>{
         cuerpo.shift();
     }
     dibujarText();
-    ctx.fillStyle = "orange";
+    ctx.fillStyle = "pink";
         ctx.fillRect(x, y, 50, 50);
     ctx.fill();
 }
