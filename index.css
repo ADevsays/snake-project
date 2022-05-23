@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+   overflow: hidden;
+}
+
+.container{
+    position: relative;
+    margin: 5vh auto;
+    width: 1298px;
+    height: 912px;
+}
+.container button{
+    display: block;
+    padding: 10px;
+    border: none;
+}
+button:hover b{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+canvas{
+    background-color: black;
+}  
+
+
+.gameOver{
+    background-color: orange;
+    color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.gameOver h1{
+    background-color: rgb(66, 150, 106);
+    padding: 20px;
+    border-radius: 7px;
+    text-shadow: 1px 2px 1px white;
+}
+.gameOver button{
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2em;
+}
+.gameOver button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
