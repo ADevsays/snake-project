@@ -1,3 +1,4 @@
+//Esta es otra versión
 const canvas = document.querySelector("#canvas")
 let ctx = canvas.getContext("2d");
 const frame = window.requestAnimationFrame;
